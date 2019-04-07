@@ -1,0 +1,90 @@
+.container-fluid{
+     background-image: url("photo1.jpg");
+     height: 670px;;
+}
+.fixed-top{
+    transition: 0.5s;
+    
+}
+.nom{
+  color: white;
+}
+
+.nav-link{
+  color: white;
+}
+
+
+.form{
+    
+    
+    display: flex;
+    margin: 0 auto;
+}
+.right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 5%;
+    margin-top: 15px;
+    
+}
+
+.nom{
+    list-style: none;
+    margin-right: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+.nom:hover{
+    text-decoration: none;
+}
+
+.collapse{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-bottom: 20px;
+    padding: 0px 40px 0px 40px;
+   
+}
+.collapse > ul > li > a{
+    font-size:20px;
+    
+    
+}
+
+
+.collapse > ul > li > a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    
+}
+.navbar{
+    height: 130px;
+    
+}
+
+
+.navbar{
+    border-bottom: solid 1px white;
+}
+.photo1{
+    height: 99%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.container-fluid{
+    
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 992px){
+    .right{
+        display: none;
+
+    }
+
+}
